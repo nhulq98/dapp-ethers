@@ -4,7 +4,7 @@
 //     alert("connect");
 //     switchNetwork();
 // });
-           
+
 
 // function switchNetwork(){
 //     alert("Switch network");

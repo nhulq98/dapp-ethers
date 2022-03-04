@@ -75,7 +75,7 @@ import tranferModule from "./send-eth"
 //         btn.innerText = 'Install MetaMask'
 //         btn.onclick = onClickInstallMetaMask;
 //     } else {
- 
+
 //         connectWallet().then((accounts) => {
 //             if (accounts && accounts[0] > 0) {
 //                 connected(accounts)

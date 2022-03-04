@@ -3,7 +3,7 @@ body {
     height: 100vh;
     display: grid;
     place-content: center;
-    background: rgba(0,0,0,.05);
+    background: rgba(0, 0, 0, .05);
     font-family: 'Nunito';
 }
 
@@ -12,7 +12,7 @@ h1 {
 }
 
 .onboard-container {
-    box-shadow: 10px 10px 30px rgba(0,0,0,.1);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .1);
     border-radius: .7em;
     padding: 4em;
     background: white;
@@ -53,14 +53,14 @@ p {
 }
 
 .account:before {
-        position: absolute;
-        content: "";
-        background: green;
-        width: .7em;
-        height: .7em;
-        border-radius: 50%;
-        left: .5em;
-        top: .6em;
+    position: absolute;
+    content: "";
+    background: green;
+    width: .7em;
+    height: .7em;
+    border-radius: 50%;
+    left: .5em;
+    top: .6em;
 }
 
 .up {

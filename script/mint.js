@@ -9,12 +9,12 @@ const walletAddress = signer.getAddress();
 
 // not use ERC-20 standard yet
 const eth = {
-  address: walletAddress,
-  abi: [
-    "function gimmeSome() external",
-    "function balanceOf(address _owner) public view returns (uint256 balance)",
-    "function transfer(address _to, uint256 _value) public returns (bool success)",
-  ],
+    address: walletAddress,
+    abi: [
+        "function gimmeSome() external",
+        "function balanceOf(address _owner) public view returns (uint256 balance)",
+        "function transfer(address _to, uint256 _value) public returns (bool success)",
+    ],
 };
 
 /**
@@ -34,9 +34,9 @@ const eth = {
 
 const mint = document.querySelector('.mint');
 
-mint.addEventListener('click', ()=>{
+mint.addEventListener('click', () => {
 
-  alert("mint clock");
+    alert("mint clock");
 
-  //mintEth();
+    //mintEth();
 });
