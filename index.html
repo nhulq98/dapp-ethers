@@ -28,25 +28,26 @@
         <div class="d-flex min-vh-100 justify-content-center align-items-center">
             <section class="border rounded p-4 py-5 shadow">
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-primary text-white">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" id="navbarScroll">
                             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" aria-current="page" href="https://mitchell.mx">
-                                        <i class="fa fa-user"></i> Mitchell Home</a>
+                                    <a class="nav-link" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="https://mitchell.mx">
+                                        <i class="fa fa-user"></i> <b>Mitchell Home</b> </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="https://project01.mitchell.mx">
-                                        <i class="fas fa-wallet"></i> Utility Wallet</a>
+                                    <a class="nav-link active text-primary" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="https://project01.mitchell.mx" aria-disabled="true">
+                                        <i class="fas fa-wallet"></i><b> Utility Wallet</b></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="https://project02.mitchell.mx" tabindex="-1" aria-disabled="true">
-                                        <i class="fab fa-btc"></i> NFT MarketPlace</a>
+                                    <a class="nav-link" onmouseover="bigImg(this)" onmouseout="normalImg(this)" href="https://project02.mitchell.mx" tabindex="-1" aria-disabled="true">
+                                        <b>NFT MarketPlace</b></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
+
                 </nav>
 
                 <hr>
@@ -124,7 +125,15 @@
             </section>
             </div>
         </div>
+        <script>
+            function bigImg(x) {
+                x.style.color = "blue";
+            }
 
+            function normalImg(x) {
+                x.style.color = "black";
+            }
+        </script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="./script/app.js" type="module"></script>
 </body>
